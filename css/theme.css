@@ -1,0 +1,88 @@
+/* Variáveis de tema - Modo Claro (Padrão) */
+:root {
+    /* Cores principais - Tema Claro (Azul e Laranja) */
+    --primary: #2a4365;
+    --primary-light: #4299e1;
+    --primary-dark: #1a365d;
+    --secondary: #c53030;
+    --secondary-light: #fc8181;
+    --accent: #ed8936;
+    --accent-light: #fed7aa;
+    
+    /* Cores de fundo - Tema Claro */
+    --bg-primary: #f7fafc;
+    --bg-secondary: #edf2f7;
+    --bg-card: #ffffff;
+    --bg-header: rgba(26, 32, 44, 0.95);
+    --bg-footer: #1a202c;
+    
+    /* Cores de texto - Tema Claro */
+    --text-primary: #2d3748;
+    --text-secondary: #4a5568;
+    --text-light: #718096;
+    --text-inverse: #ffffff;
+    
+    /* Cores de borda - Tema Claro */
+    --border-color: #e2e8f0;
+    --border-light: #edf2f7;
+    
+    /* Sombras - Tema Claro */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    
+    /* Gradientes */
+    --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--accent) 0%, #dd6b20 100%);
+    
+    /* Status */
+    --success: #38a169;
+    --warning: #d69e2e;
+    --error: #e53e3e;
+    --info: #3182ce;
+    
+    /* Transições */
+    --transition-fast: 150ms ease;
+    --transition-normal: 300ms ease;
+    --transition-slow: 500ms ease;
+}
+
+/* Variáveis de tema - Modo Escuro */
+[data-theme="dark"] {
+    /* Cores principais - Tema Escuro (Azul Escuro e Ciano) */
+    --primary: #63b3ed;
+    --primary-light: #90cdf4;
+    --primary-dark: #2c5282;
+    --secondary: #fc8181;
+    --secondary-light: #fed7d7;
+    --accent: #81e6d9;
+    --accent-light: #b2f5ea;
+    
+    /* Cores de fundo - Tema Escuro */
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-card: #1e293b;
+    --bg-header: rgba(15, 23, 42, 0.95);
+    --bg-footer: #0f172a;
+    
+    /* Cores de texto - Tema Escuro */
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-light: #94a3b8;
+    --text-inverse: #0f172a;
+    
+    /* Cores de borda - Tema Escuro */
+    --border-color: #334155;
+    --border-light: #475569;
+    
+    /* Sombras - Tema Escuro */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+    
+    /* Gradientes - Tema Escuro */
+    --gradient-primary: linear-gradient(135deg, var(--primary-dark) 0%, #1e3a8a 100%);
+    --gradient-accent: linear-gradient(135deg, var(--accent) 0%, #0d9488 100%);
+}
